@@ -4,7 +4,7 @@ import torch
 
 class StaticData(D.Dataset):
     """
-    A object to store the ENI dataset for training RL algorithms.
+    A object to store the dataset for training RL algorithms.
     """
 
     def __init__(self, state_s, act_s, rw_s):
